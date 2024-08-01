@@ -13466,7 +13466,7 @@ const It = $w(eA),
                   id: 8,
                   title: "jew-9.PNG",
                   type: "photo",
-                  src: "/images/jew9.png",
+                  src: "/images/jew9.jpeg",
                   altText: "Q-1.JPG",
                   size: 1366527,
                 },
@@ -13474,7 +13474,7 @@ const It = $w(eA),
                   id: 9,
                   title: "jew-10.PNG",
                   type: "photo",
-                  src: "/images/jew10.png",
+                  src: "/images/jew10.jpeg",
                   altText: "Q-1.JPG",
                   size: 1366527,
                 },
@@ -18627,11 +18627,15 @@ const rP = Ot(tP, [
       "div",
       { class: "video" },
       [
-       
         L("audio", {
           controls: true,
           src: "images/song.mp3",
           type: "audio/mpeg",
+        }),
+        L("img", {
+          src: "images/songbg.png",
+          alt: "Background Image",
+          class: "song-background",
         }),
       ],
       -1
@@ -19248,17 +19252,9 @@ const kP = Ot(PP, [
   WM = Zt(
     '<div class="sidebar" data-v-23173a58><img class="sidebar-image" src="' +
       SM +
-      '" data-v-23173a58></div><div class="socials" data-v-23173a58><a href="https://www.instagram.com/_dontax_/" target="_blank" data-v-23173a58><div class="bar" data-v-23173a58><img class="social-image" src="' +
-      TM +
-      '" data-v-23173a58><div class="social-text" data-v-23173a58><u data-v-23173a58>I</u>nstagram</div></div></a><a href="https://www.reddit.com/user/satoshigekkouga2303" target="_blank" data-v-23173a58><div class="bar" data-v-23173a58><img class="social-image" src="' +
-      kM +
-      '" data-v-23173a58><u data-v-23173a58>R</u>eddit </div></a><a href="https://www.linkedin.com/in/don-chia" target="_blank" data-v-23173a58><div class="bar" data-v-23173a58><img class="social-image" src="' +
-      EM +
-      '" data-v-23173a58><u data-v-23173a58>L</u>inkedIn </div></a><a href="https://twitter.com/lizarDON2303" target="_blank" data-v-23173a58><div class="bar" data-v-23173a58><img class="social-image" src="' +
+      '" data-v-23173a58></div><div class="socials" data-v-23173a58><a href="https://www.instagram.com/_dontax_/" target="_blank" data-v-23173a58></a><a href="https://www.reddit.com/user/satoshigekkouga2303" target="_blank" data-v-23173a58></a><a href="https://www.linkedin.com/in/don-chia" target="_blank" data-v-23173a58></a><a href="https://x.com/solanajews" target="_blank" data-v-23173a58><div class="bar" data-v-23173a58><img class="social-image" src="' +
       DM +
-      '" data-v-23173a58><u data-v-23173a58>T</u>witter </div></a><a href="https://github.com/DonChiaQE" target="_blank" data-v-23173a58><div class="bar" data-v-23173a58><img class="social-image" src="' +
-      IM +
-      '" data-v-23173a58><u data-v-23173a58>G</u>itHub </div></a><div class="divider" data-v-23173a58></div><a href="/images/well.pdf" target="_blank" data-v-23173a58><div class="bar" data-v-23173a58><img class="social-image" src="' +
+      '" data-v-23173a58><u data-v-23173a58>T</u>witter </div></a><a href="https://github.com/DonChiaQE" target="_blank" data-v-23173a58></a><div class="divider" data-v-23173a58></div><a href="/images/well.pdf" target="_blank" data-v-23173a58><div class="bar" data-v-23173a58><img class="social-image" src="' +
       cf +
       '" data-v-23173a58><u data-v-23173a58>W</u>ell well well </div></a><div class="bar" data-v-23173a58><img class="social-image" src="' +
       2
